@@ -1,0 +1,408 @@
+/* style1.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#bodystyle{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.emphasis {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+    border-color: #4caf50;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#update-form {
+    background-color: #f8f8f8;
+}
+
+   .product-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+
+
+.product-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the section horizontally */
+    max-width: 400px;
+}
+
+.product-item img {
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-item a {
+    text-decoration: none;
+    color: #0066c0;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-item a:hover {
+    text-decoration: underline;
+}
+
+.comments-section {
+    width: 75%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.comment {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 20px; /* Add margin to create separation between comments */
+}
+.comment p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.comment strong {
+    color: #0066c0;
+}
+
+.comment-date {
+    color: #555;
+    font-size: 14px;
+}
+
+.comment-form {
+    width: 75%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+.comment-form button {
+    width: 100%;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-form button:hover {
+    background-color: #e08500;
+}
+.comment-by {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    color: rgb(180, 133, 45);
+    font-size: 14px;
+}
+/* Add this CSS to style the star rating input */
+.rating-stars {
+    display: flex;
+}
+
+/* Rating Stars Styles */
+.rating-stars {
+    display: flex;
+    align-items: center;
+}
+
+.rating-stars input {
+    display: none;
+}
+
+.rating-stars label {
+    font-size: 25px;
+    color: #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.rating-stars label:before {
+    content: '\2605';
+}
+
+.rating-stars input:checked ~ label,
+.rating-stars:hover label {
+    color: #ffcc00; /* Highlight color on hover or when checked */
+}
+
+/* Star Styles */
+.star {
+    font-size: 20px; /* Adjust the size as needed */
+    color: #ffd700; /* Set the star color */
+    margin-right: 5px;
+}
+
+.star.filled {
+    color: #ffd700; /* Set the filled star color */
+}
+
+.star.empty {
+    color: #ccc; /* Set the empty star color */
+}
+
+/* Delete Comment Button Styles */
+.delete-comment-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 1px;
+    color: red; /* Adjust color as needed */
+    margin-left: 1600px; /* Push the button to the right */
+}
+
+/* Comment Form Styles */
+#form-comment {
+    position: relative;
+    display: flex;
+    width: 1px;
+    justify-content: center;
+    margin-top: 1px;
+    padding: 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch; /* Add some top margin for spacing */
+}
+#ratingnew{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#replies-106{
+    margin-bottom: 100px;
+    display: block;
+  
+}
+.reply {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px; /* Add margin to separate replies from each other */
+}
+#bodystyle .reply-form {
+    display: flex;
+    width: auto;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#bodystyle .reply-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#bodystyle .reply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 14px;
+    max-height: 41px
+    
+}
+
+#bodystyle .reply-form button {
+    width: 5%;
+    color: blue;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+#bodystyle .reply-form button:hover {
+    background-color: #0056b3; /* You can change the hover color */
+}
+#reply-btn{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 450px;
+    transition: background-color 0.3s ease-in-out;
+
+}

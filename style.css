@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+  background-color: #333;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  }
+
+  section {
+    padding: 100px;
+  }
+
+  .widget-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  button {
+    background-color: rgb(209, 135, 37);
+    color: #fff;
+    padding: 10px ;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    
+  }
+  img {
+          width: 70px; /* Set the width to your desired value */
+          height: 70xpx; /* Maintain aspect ratio */
+      }
+
+  button:hover {
+    background-color: rgb(245, 204, 115);;
+  }
+#logoContainer  {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  /* Adjust the bottom margin to add space */
+}
+/* Add this CSS to your existing styles */
+#logoContainer img {
+  margin-right: 15px; /* Adjust the bottom margin to add space */
+}
+
+
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    max-height: 300px;
+    overflow: auto;
+  }
+
+  .product-item {
+    width: 300px;
+    max-height: 400px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product img {
+    width: auto;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  .product p {
+    width: 300px;
+    height: 18px;
+    overflow: hidden;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
